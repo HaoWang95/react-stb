@@ -1,31 +1,90 @@
-import {Meta, ColorPalette, ColorItem} from "@storybook/blocks";
+import { Meta, ColorPalette, ColorItem } from "@storybook/blocks";
 
 <Meta title="Color samples" />
+
+
+<ColorPalette>
+  <ColorItem
+    title="Dark"
+    subtitle="Dark theme options"
+    colors={{
+      mediumDark: "#73828c",
+      dark: "#5c6870",
+      darker: "#454e54",
+      darkest: "#2e3438"
+    }}
+  />
+  <ColorItem
+    title="Light"
+    subtitle="Light theme options"
+    colors={{
+      mediumLight: "#D9EBF2",
+      light: "#ecf4f9",
+      lighter: "#e7fafc",
+      lightest: "#ffffff"
+    }}
+  />
+
+</ColorPalette>
+
+<ColorPalette>
+    <ColorItem title="Green color" subtitle="Main green color" colors={{
+
+    }} />
+</ColorPalette>
 
 <ColorPalette>
   <ColorItem
     title="Theme color grey"
     subtitle="Greys"
-    colors={{ White: '#FFFFFF', Alabaster: '#F8F8F8', Concrete: '#F3F3F3' }}
+    colors={{ White: "#FFFFFF", Alabaster: "#F8F8F8", Concrete: "#F3F3F3" }}
   />
-  <ColorItem 
-    title="Theme color coral" 
-    subtitle="Coral" 
-    colors={{ WildWatermelon: '#FF4785' }} 
+  <ColorItem
+    title="Theme color coral"
+    subtitle="Coral"
+    colors={{ WildWatermelon: "#FF4785" }}
   />
-  <ColorItem 
-    title="Theme color blue" 
-    subtitle="Ocean" 
-    colors={{ DodgerBlue: '#1EA7FD' }} 
+  <ColorItem
+    title="Theme color red"
+    subtitle="Basic Red"
+    colors={{
+      Red: "#D0312D",
+      CherryRed: "#990F02",
+      Rose: "#E3242B",
+      Scarlet: "#900D09",
+      ImperialRed: "#ED2939",
+    }}
+  />
+  <ColorItem
+    title="Theme color blue"
+    subtitle="Ocean"
+    colors={{ DodgerBlue: "#1EA7FD" }}
   />
   <ColorItem
     title="Theme color green"
     subtitle="Green"
     colors={{
-      Apple: 'rgba(102,191,60,1)',
-      Apple80: 'rgba(102,191,60,.8)',
-      Apple60: 'rgba(102,191,60,.6)',
-      Apple30: 'rgba(102,191,60,.3)',
+      Apple: "rgba(102,191,60,1)",
+      Apple80: "rgba(102,191,60,.8)",
+      Apple60: "rgba(102,191,60,.6)",
+      Apple30: "rgba(102,191,60,.3)",
+    }}
+  />
+  <ColorItem
+    title="Theme color orange"
+    subtitle="Orange"
+    colors={{
+      Orange: "#ED7014",
+    }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="Orange variants"
+    subtitle="Orange color options"
+    colors={{
+      Tangerine: "#FA8128",
     }}
   />
 </ColorPalette>
